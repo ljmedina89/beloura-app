@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const productos = [
-        { nombre: "Khamra", imagen: "assets/KHAMRA.jpg", precio: "$40", enlace: "https://wa.me/19726070561" },
-        { nombre: "Asad Black", imagen: "assets/perfume2.jpg", precio: "$25", enlace: "https://wa.me/19726070561" }
+        { nombre: "Khamra", imagen: "asset/KHAMRA.jpg", precio: "$40", enlace: "https://wa.me/19726070561" },
+        { nombre: "Asad Black", imagen: "asset/perfume2.jpg", precio: "$25", enlace: "https://wa.me/19726070561" }
     ];
 
     const contenedor = document.getElementById("productos");
