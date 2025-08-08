@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const productos = [
-        { nombre: "Perfume 1", imagen: "assets/KHAMRA .jpg", precio: "$40", enlace: "https://wa.me/19726070561" },
+        { nombre: "Perfume 1", imagen: "assets/KHAMRA.jpg", precio: "$40", enlace: "https://wa.me/19726070561" },
         { nombre: "Perfume 2", imagen: "assets/perfume2.jpg", precio: "$25", enlace: "https://wa.me/19726070561" }
     ];
 
