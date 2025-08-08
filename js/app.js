@@ -1,3 +1,10 @@
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service-worker.js").then(() => {
+      console.log("Service Worker registrado");
+    });
+  });
+}
 document.addEventListener("DOMContentLoaded", () => {
     const productos = [
         { nombre: "Khamra", imagen: "asset/khamra.jpg", precio: "$40", enlace: "https://wa.me/19726070561" },
